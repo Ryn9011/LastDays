@@ -12,6 +12,7 @@ import TheEradicationOfBordersAndTheMassMigrationVacuum from "./_articles-compon
 import GlobalEmergencyProtocolsAndTheConditioningOfSociety from "./_articles-components/global-emergency-protocols-and-the-conditioning-of-society";
 import TheTechnologicalShelfLifeAndTheAiSingularity from "./_articles-components/the-technological-shelf-life-and-the-ai-singularity";
 import TheTechnicalRealisationOfTheBeastSystem from "./_articles-components/the-technical-realisation-of-the-beast-system";
+import MillionsHaveDisappeared from "./_articles-components/millions-have-disappeared";
 
 export type Article = {
   slug: string;
@@ -120,6 +121,13 @@ export const articles: Article[] = [
     description:
       "How the convergence of CBDCs, AI-driven algorithmic surveillance, biometric identification, and planetary 5G/6G infrastructure has built the exact technical lock on buying and selling described in Revelation 13.",
     Content: TheTechnicalRealisationOfTheBeastSystem,
+  },
+  {
+    slug: "millions-have-disappeared",
+    title: "Millions Have Disappeared",
+    description:
+      "A reflection on the rapture and the beginning of the tribulation, urging those left behind to turn to Jesus Christ.",
+    Content: MillionsHaveDisappeared,
   },
 ];
 
